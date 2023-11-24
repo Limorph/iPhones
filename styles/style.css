@@ -1,0 +1,276 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url("/fonts/Inter.ttf");
+  font-weight: 100 900;
+}
+
+body {
+  font-family: "Inter";
+  background-color: white;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.button {
+  color: white;
+  background-color: #490E84;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+.title {
+  font-size: 32px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #717171;
+  align-self: center;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+  color: #717171;
+}
+
+a:hover {
+  color: white;
+  transition: 0.3s;
+  text-shadow: white 0 0 10px;
+}
+
+
+
+/*#region Header*/
+.header {
+  background-color: #0A0A0A;
+  padding: 33px 10px 32px 10px;
+}
+
+.header .container {
+  height: 48px;
+}
+
+.header-info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 24px;
+}
+
+.links-list {
+  display: flex;
+  column-gap: 30px;
+}
+
+.links-list li {
+  display: inline;
+} 
+
+.header-phone {
+  color: #717171;
+}
+/*#endregion*/
+
+/*#region Main*/
+.banner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding-top: 71px;
+  padding-bottom: 25px;
+  max-width: 100%;
+  width: auto;
+  background-color: #F5F5F7;
+}
+
+h1 {
+  font-size: 64px;
+  font-weight: 700;
+  color: #490E84;
+}
+
+.banner-title {
+  margin-bottom: 40px;
+}
+
+.banner-image {
+  margin-top: 40px;
+  margin-bottom: 25px;
+}
+
+.banner-button {
+  width: 350px;
+  height: 70px;
+  font-size: 24px;
+  font-weight: 700;
+  padding: 20px auto;
+  transition: 0.3s;
+}
+
+.banner-button:hover {
+  background-color: #3A0766;
+  transition: 0.3s;
+}
+
+.new {
+  margin-top: 87px;
+}
+
+.new .title {
+  margin-bottom: 50px;
+}
+
+.new-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1101px;
+}
+
+.new-text {
+  display: flex;
+  flex-direction: column;
+  row-gap: 30px;
+  max-width: 560px;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18.2px
+}
+
+.new-text-spec {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 26px
+}
+
+
+.color {
+  margin-top: 150px;
+}
+
+.color .title {
+  margin-bottom: 50px;
+}
+
+.color-list {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  column-gap: 80px;
+}
+
+.color-item {
+  color: #0A0A0A;
+  text-align: center;
+}
+
+.color-name-en {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 26px;
+}
+
+.color-name-ru {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18.2px;
+}
+
+
+.order {
+  margin-top: 150px;
+  display: flex;
+}
+
+.form {
+  background-color: #574B63;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: start;
+  justify-content: center;
+  color: white;
+}
+
+.form-title {
+  margin-top: 137px;
+  margin-bottom: 72px;
+  color: white;
+}
+
+.form-input {
+  margin-bottom: 30px;
+  width: 100%;
+  max-width: 400px;
+  height: 28px;
+  background: none;
+  border: none;
+  border-bottom: 1px solid #F5F5F5;
+  color: white;
+}
+
+.form-input:focus {
+  outline: none;
+  border-bottom: 2px solid #F5F5F5;
+  color: white;
+}
+
+.form-text {
+  margin-bottom: 30px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18.2px;
+  color: white;
+}
+
+.order-button {
+  width: 100%;
+  max-width: 240px;
+  height: 50px;
+  margin: 16px auto;
+  background-color: white;
+  color: #490E84;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 18.2px;
+  transition: 0.3s;
+}
+
+.order-button:hover {
+  background-color: #E0E0E0;
+  transition: 0.3s;
+}
+/*#endregion*/
+
+/*#region Footer*/
+.footer {
+  height: 150px;
+  background-color: #0A0A0A;
+  color: #717171;
+}
+
+.footer .container {
+  box-sizing: content-box;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 40px 0;
+  height: 70px;
+}
+/*#endregion*/
+
